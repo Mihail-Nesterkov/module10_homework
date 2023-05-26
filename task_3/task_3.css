@@ -1,0 +1,62 @@
+p{
+    margin: 0;
+}
+.conteuner{
+    max-width: 500px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+.display{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #e1d9d9;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.inpBut{
+    display: flex;
+    justify-content: space-around;
+}
+#input{
+    margin-bottom: 5px;
+    width: 55%;
+    background-color: #83a1d9;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#btn, #btnGeo{
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#btn:hover, #btnGeo:hover{
+    background-color: black;
+    color: darkgray;
+    cursor: pointer;
+}
+.clientD{
+    margin-top: 7px;
+    width: fit-content;
+    max-width: 85%;
+    padding: 5px 10px;
+    background-color: #83a1d9;
+    border-radius: 10px;
+}
+.server{
+    width: fit-content;
+    max-width: 400px;
+    padding: 5px 10px;
+    margin: 0;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+.serverD{
+    margin-top: 7px;
+    display: flex;
+    justify-content: flex-end;
+
+}
